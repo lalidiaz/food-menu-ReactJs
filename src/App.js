@@ -23,7 +23,7 @@ function App() {
       <main>
         <section className="menu-section">
           <div className="title">
-            <h2>Explore Our Menu</h2>
+            <h1 >Explore Our Menu</h1>
           </div>
           <Categories categories={categories} filterItems={filterItems} />
           <Menu items={menuItem} />
